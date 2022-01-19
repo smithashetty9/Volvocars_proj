@@ -1,10 +1,11 @@
-# Test Automation Assignment
+### Test Automation Assignment
 The test automation is built using cucumber framework.Chai is used for assertion.
 
-# Repository
+### Repository
+git clone https://github.com/smithashetty9/Volvocars_proj.git
 
 
-# Setup and Execution
+### Setup and Execution
 1.	Get the code from the git repository
 2.	Open the project in VS code and open new terminal
 3.	Run following commands
@@ -14,10 +15,10 @@ The test automation is built using cucumber framework.Chai is used for assertion
         **npx wdio run wdio.conf.js**
 5.	Selected **chromedriver** for running the test
 
-# Test Report
+### Test Report
  For reporting I have used allure and spec.
 
-# Folder Structure
+### Folder Structure
 1.	Under Page Objects folder there are 4 files that contains the web elements locators and actions.
     **carsafety.page.js** - contains web locators for car safety page
     **home.page.js**      - contains web locator and actions for Campaign home page
