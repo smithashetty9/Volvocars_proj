@@ -1,0 +1,182 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1642589123941' stop='1642589124786'>
+    <name>Automating the volvocars Campaign page: TC -005 Verify that Hybrid is selected by default</name>
+    <title>Automating the volvocars Campaign page: TC -005 Verify that Hybrid is selected by default</title>
+    <test-cases>
+        <test-case start='1642589123941' status='passed' stop='1642589123942'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1642589123942' status='passed' stop='1642589124265'>
+            <name>Given I am on the homepage</name>
+            <title>Given I am on the homepage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1642589123942' status='passed' stop='1642589123959'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9bfec53c-a8b6-4d19-a915-20ed1cb79a3b-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='9304f498-7304-4879-9a4f-37a9f019ce5f-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1642589123964' status='passed' stop='1642589124264'>
+                    <name>POST /session/:sessionId/element/5907cf5c-463b-4699-b5d5-660222b1d717/click</name>
+                    <title>POST /session/:sessionId/element/5907cf5c-463b-4699-b5d5-660222b1d717/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1642589124265' status='passed' stop='1642589124766'>
+            <name>When ourCars is clicked</name>
+            <title>When ourCars is clicked</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1642589124266' status='passed' stop='1642589124288'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b362faf5-81de-41aa-8aab-d89d21147cb9-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='0977b44c-06f8-46bf-a9f2-85b77d7f5c59-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1642589124294' status='passed' stop='1642589124666'>
+                    <name>POST /session/:sessionId/element/5907cf5c-463b-4699-b5d5-660222b1d717/click</name>
+                    <title>POST /session/:sessionId/element/5907cf5c-463b-4699-b5d5-660222b1d717/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1642589124667' status='passed' stop='1642589124712'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7911a03b-a67b-4c3e-981a-c8c0576b35d2-attachment.json' type='application/json' size='91'/>
+                        <attachment title='Response' source='7ad73aa5-caf4-46ac-a1d1-c25dc7e9e114-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1642589124742' status='passed' stop='1642589124759'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='a0590740-77af-4156-891b-7e8f29563254-attachment.json' type='application/json' size='91'/>
+                        <attachment title='Response' source='038a572c-5e77-4704-8a40-bd89a691df5d-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1642589124766' status='passed' stop='1642589124771'>
+            <name>Then Hybrid Variant is selected by default</name>
+            <title>Then Hybrid Variant is selected by default</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1642589124767' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c7e5bed9-08c8-4624-ab74-b43fe49ff7a0-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1642589124771' status='passed' stop='1642589124777'>
+            <name>And Electric variant is greyed</name>
+            <title>And Electric variant is greyed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1642589124772' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='429582a8-7349-4d9b-aaa7-9d051f6efea6-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1642589124777' status='passed' stop='1642589124785'>
+            <name>And Mild hybrids variant is greyed</name>
+            <title>And Mild hybrids variant is greyed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1642589124779' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7d9f828d-8330-40f3-924e-cb3fa7e18db2-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1642589124785' status='passed' stop='1642589124785'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
